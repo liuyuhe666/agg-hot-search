@@ -16,7 +16,7 @@ export default function Nav() {
             </Link>
             <div>
               <Link
-                href="#"
+                href="https://github.com/liuyuhe666/agg-hot-search"
                 passHref
                 className=" relative"
               >

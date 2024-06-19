@@ -1,8 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+    <a href="https://github.com/liuyuhe666/agg-hot-search"><img width="100px" src="./assets/logo.png" alt="logo"></a>
+    <h2 align="center">🔎 聚合热搜</h2>
+</p>
+<p align="center">
+    <a href="https://github.com/liuyuhe666/agg-hot-search/blob/main/LICENSE"><img src="https://img.shields.io/github/license/liuyuhe666/agg-hot-search?color=42b883&style=flat-square" alt="LICENSE"></a>
+    <a href="https://github.com/liuyuhe666/agg-hot-search/stargazers"><img src="https://img.shields.io/github/stars/liuyuhe666/agg-hot-search?color=42b883&logo=github&style=flat-square" alt="stars"></a>
+    <a href="https://github.com/liuyuhe666/agg-hot-search/network/members"><img src="https://img.shields.io/github/forks/liuyuhe666/agg-hot-search?color=42b883&logo=github&style=flat-square" alt="forks"></a>
+</p>
 
-## Getting Started
 
-First, run the development server:
+一款基于 Next.js 构建的开源项目
+- ⌈ 哔哩哔哩热搜 ⌋ 
+- ⌈ 微博热搜 ⌋ 
+- ⌈ 知乎热搜 ⌋ 
+- ⌈ 头条热搜 ⌋ 
+- ⌈ 抖音热搜 ⌋
+
+
+## 🔧 技术栈
+
+- NextJS (App Router)
+- TailwindCSS
+
+## 🐳 运行
 
 ```bash
 npm run dev
@@ -14,23 +34,7 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ❤️ 鸣谢
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+感谢 [@vikiboss](https://github.com/vikiboss) 提供的[数据接口](https://github.com/vikiboss/60s)
