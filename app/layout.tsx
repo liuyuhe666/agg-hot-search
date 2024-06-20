@@ -19,9 +19,11 @@ export default function RootLayout({
   return (
     <html lang="zh-CN">
       <body className={inter.className}>
-        <Nav />
-        {children}
-        <Footer />
+        <div className="container mx-auto">
+          <Nav />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );

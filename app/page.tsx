@@ -7,12 +7,12 @@ import ZhiHuCard from "@/components/ZhiHuCard";
 
 export default function Home() {
   return (
-    <main className="flex flex-wrap items-center justify-center mx-auto max-w-6xl px-6 pb-2 pt-4 md:pt-6">
+    <main className="flex flex-wrap justify-center">
       <BiLiCard />
       <DouYinCard />
       <TouTiaoCard />
       <WeiBoCard />
-      {/* <ZhiHuCard /> */}
+      <ZhiHuCard />
     </main>
   );
 }
