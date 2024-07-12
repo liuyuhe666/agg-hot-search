@@ -1,15 +1,20 @@
-import { fetchBiLiData } from "@/lib/data";
 import Link from "next/link";
+import React from "react";
 
-export default async function Page() {
-    const data: any[] = await fetchBiLiData();
+interface cardProps {
+    title: string,
+    url: string,
+    data: any[],
+}
+
+const Card: React.FC<cardProps> = ({title, url, data}) => {
     return (
-        <div className="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
-            <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-                <Link href="https://www.bilibili.com" target="_blank" className="w-3/4 truncate text-center font-bold dark:text-gray-300">
-                    哔哩哔哩热搜排行榜
+        <div className="w-full max-w-md p-4 m-4">
+            <div className="flex items-center justify-between mb-4">
+                <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">{title}</h5>
+                <Link href={url} className="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">
+                    更多
                 </Link>
-                <Link href="/" className="text-lg font-bold dark:text-gray-300">{'<-'}</Link>
             </div>
             <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
                 <ul className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -25,4 +30,6 @@ export default async function Page() {
             </div>
         </div>
     );
-}
+};
+
+export default Card;
