@@ -5,7 +5,7 @@ export default async function Page() {
     const data: any[] = await fetchWeiBoData();
     return (
         <div className="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
-        <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+        <div className="w-full mx-auto max-w-screen-xl p-4 flex items-center justify-between">
             <Link href="https://www.weibo.com" target="_blank" className="w-3/4 truncate text-center font-bold dark:text-gray-300">
                 微博热搜排行榜
             </Link>
